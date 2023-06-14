@@ -1,0 +1,72 @@
+body
+{
+    background-color: #0C134F;
+    color: 090580;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+}
+
+input
+{
+    width: 95%;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #D4ADFC;
+    color: #1D267D;
+    padding: 5px;
+}
+
+#main_form
+{
+    border-style: double;
+    border-color: #D4ADFC;
+    color: #1D267D;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 4vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#name_box
+{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#birthday_calender
+{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#submit_button
+{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 25px;
+    border-radius: 50px;
+    color: #1D267D;
+    background-color: #D4ADFC; 
+    padding: 10px;
+}
+
+#submit_button:hover
+{
+    background-color: #1D267D;
+    color: #D4ADFC;
+}
+
+#result
+{
+    font-family: "Lucida Console", Monaco, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: #D4ADFC;
+}

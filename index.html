@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Champion Selection</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body onload="loading()">
+        <div id="main_form">
+            <!-- Textbox for name -->
+            <input type="text" name="name" placeholder="Enter your name" id="name_box"> <br>
+            <!-- Calender to enter the birthdate -->
+            <input type="date" name="birthdate" id="birthday_calender"> <br>
+            <!-- Submit button -->
+            <button id="submit_button" onclick="calculate_score()">Submit</button>
+        </div>
+
+        <!-- Div to display the result -->
+        <div id="result"></div>
+    </body>
+</html>
